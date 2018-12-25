@@ -16,10 +16,6 @@ Pod::Spec.new do |s|
   s.platform         = :ios, "5.0"
 
   s.requires_arc     = true
-
-  s.subspec 'Controller' do |ss|
-        ss.source_files = "ModuleB-Component/Controller/**/*.{h,m}"
-    end
     
   s.subspec 'Target' do |ss|
       ss.source_files = "ModuleB-Component/Target/**/*.{h,m}"
