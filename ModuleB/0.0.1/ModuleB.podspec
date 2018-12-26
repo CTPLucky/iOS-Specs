@@ -8,18 +8,17 @@ Pod::Spec.new do |s|
                        TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/CTPLucky/iOS-moduleB'
+  s.homepage         = 'https://github.com/CTPLucky/iOS-ModuleB'
   s.license          = "MIT"
   s.author           = { 'CTPLucky' => '1379572983@qq.com' }
-  s.source           = { :git => 'git@github.com:CTPLucky/iOS-moduleB.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:CTPLucky/iOS-ModuleB.git', :tag => s.version.to_s }
 
   s.platform         = :ios, "5.0"
 
   s.requires_arc     = true
     
   s.subspec 'Target' do |ss|
-      ss.source_files = "ModuleB-Component/Target/**/*.{h,m}"
-      ss.dependency "ModuleB/Controller"
+      ss.source_files = "ModuleB/Target/**/*.{h,m}"
   end
 
 end
